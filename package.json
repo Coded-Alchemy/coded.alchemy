@@ -2,7 +2,7 @@
   "name": "coded-alchemy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://coded-alchemy.github.io/Coded-Alchemy/public",
+  "homepage": "https://coded-alchemy.github.io/coded.alchemy/",
   "dependencies": {
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
