@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f130c21c-ef78-4771-85a6-ee6324b9c6b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/component/Jumbotron.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Jumbotron.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,7 +38,7 @@
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="1" />
-          <entry key="js" value="10" />
+          <entry key="js" value="11" />
           <entry key="json" value="2" />
         </counts>
       </usages-collector>
@@ -46,20 +47,20 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="10" />
+          <entry key="JavaScript" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="13" />
-          <entry key="js" value="105" />
+          <entry key="js" value="109" />
           <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="13" />
-          <entry key="JavaScript" value="105" />
+          <entry key="JavaScript" value="109" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
@@ -80,16 +81,29 @@
         <entry file="file://$PROJECT_DIR$/src/component/Footer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/component/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="n#!!block;n#Header#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/Jumbotron.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="255">
+              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -172,6 +186,8 @@
         <option value="$PROJECT_DIR$/src/component/App.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/component/Jumbotron.js" />
+        <option value="$PROJECT_DIR$/src/component/Footer.js" />
+        <option value="$PROJECT_DIR$/src/component/Header.js" />
       </list>
     </option>
   </component>
@@ -363,7 +379,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5609000" />
+    <option name="totallyTimeSpent" value="5706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -375,7 +391,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.31917807" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.31917807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,7 +400,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32909605" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32909605" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.31917807" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4988086" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4988086" visible="true" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -487,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.dev.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2820">
@@ -501,10 +510,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/App.css">
+    <entry file="file://$PROJECT_DIR$/src/component/Jumbotron.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -518,12 +530,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Jumbotron.js">
+    <entry file="file://$PROJECT_DIR$/src/css/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="660">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#Header#0" />
           </folding>
         </state>
       </provider>
