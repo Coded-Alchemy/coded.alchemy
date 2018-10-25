@@ -1,19 +1,14 @@
 import React, {Component} from "react";
 import {classify} from "../util/Utils";
 import Container from "./Container";
+import Button from "./Button"
 
 export default class Jumbotron extends Component {
-
-    componentWillMount() {
-        this.state = {
-            className: this.props.className || ''
-        }
-    }
-
     render() {
         const PROPS = Object.assign({}, this.props);
         const CSS_NAME = 'jumbotron';
-        PROPS.className = classify(CSS_NAME, this.state.className);
+        // eslint-disable-next-line
+        PROPS.className = classify(CSS_NAME, '${this.props.className || \'\'}');
         const containerFluid = PROPS.containerFluid;
         delete PROPS.containerFluid;
         const body = PROPS.className.includes(CSS_NAME + '-fluid') ?
@@ -32,17 +27,9 @@ export default class Jumbotron extends Component {
                     {body}
                 </Container>
 
-                {/*<p>Taji was here!</p>*/}
-                {/*<Button className="-primary" href="https://google.com" target="_blank"/>*/}
+                <p>Taji was here!</p>
+                <Button className="-primary" href="https://google.com" target="_blank" label="Click this shit yo!"/>
             </div>
         )
     }
-
-    // componentDidMount(){
-
-    //     $.ajax('http://data.com').then((res)=>{res.json()})
-    //     api.fetchData().then((data)=>{
-    //        this.setState({serverData:data});
-    //     });
-    // }
 }
