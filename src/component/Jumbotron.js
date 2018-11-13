@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {classify} from "../util/Utils";
 import Container from "./Container";
-import Button from "./Button"
+// import Button from "./Button"
 
 export default class Jumbotron extends Component {
     render() {
@@ -17,18 +17,11 @@ export default class Jumbotron extends Component {
             </Container> : PROPS.children;
 
         return (
-            <div {...PROPS} onClick={() => {
-                this.setState({
-                    className: 'matt has much class',
-                    awesomeProperty: 12
-                })
-            }}>
+            <div>
                 <Container fluid={containerFluid}>
                     {body}
                 </Container>
-
-                <p>Taji was here!</p>
-                <Button className="-primary" href="https://google.com" target="_blank" label="Click this shit yo!"/>
+                {/*<Button className="-primary" href="https://google.com" target="_blank" label="Click this shit yo!"/>*/}
             </div>
         )
     }
